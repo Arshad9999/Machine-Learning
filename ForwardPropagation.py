@@ -1,6 +1,6 @@
 import numpy as np
 def sigmoid(x):
-  return 1 / (1 + np.exp(-x))]
+  return 1 / (1 + np.exp(-x))
 
 def forward_pass(X, W):
   output = sigmoid(np.dot(X, W))
