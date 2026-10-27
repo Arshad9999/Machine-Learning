@@ -22,3 +22,7 @@ Several labs expect local CSV files that are not included: `kc_house_data.csv`, 
 ## License
 
 The repository includes a Apache-2.0 license. See the checked-in license file and retain existing attribution.
+
+## Published site
+
+[Published learning notes](https://arshad9999.github.io/Machine-Learning/). The Pages deployment succeeded and the homepage returned HTTP 200 on 27 October 2026. This does not establish a working capture service or validate model results.
