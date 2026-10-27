@@ -1,0 +1,19 @@
+
+
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+!.env.*.example
+*.pem
+*.key
+
+# Local OS/editor artifacts
+.DS_Store
+Thumbs.db
+*.swp
+
+.venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/

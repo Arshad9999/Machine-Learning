@@ -32,7 +32,7 @@ def mfunc(x,y,typ):
   print('--------------------------------------------------------')
   print(classification_report(y_test, pred_labels))
   return X_train, X_test, y_train, y_test, clf, pred_labels
-  
+
 X=df[['rating_difference', 'turns']]
 y=df['white_win'].values
 X_train, X_test, y_train, y_test, clf, pred_labels, = mfunc(X, y, GaussianNB())

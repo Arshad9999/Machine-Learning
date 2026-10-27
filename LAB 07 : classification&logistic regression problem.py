@@ -2,7 +2,6 @@ import numpy as np
 import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
-%matplotlib inline
 col_names=['pregnant','glucose','bp','skin','insulin','bmi','pedigree','age','label']
 pima = pd.read_csv('pima-indians-diabetes.csv',header=None,names=col_names)
 plt.style.use("seaborn")
@@ -44,7 +43,7 @@ prediction = lr.predict(input_data_reshaped)
 
 if (prediction[0]== 0):
   print('According to the given details person does not have a diabetes Disease')
- 
+
 else:
   print('According to the given details person has diabetes Disease')
 from sklearn import metrics
